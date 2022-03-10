@@ -12,4 +12,4 @@ RRP_scara = robot ({L1 L2 L3 L4});
 
 PO = [0;0;0;1]
 T04 = fkine(RRP_scara, [deg2rad(-3.24) deg2rad(28.95) 0.5 deg2rad(0)])
-% Pend = T04*PO
+Pend = T04*PO
