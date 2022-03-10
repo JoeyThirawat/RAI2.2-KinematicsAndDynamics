@@ -1,3 +1,4 @@
+%% Assingment 3 - Q04
 th1 = 0; th2 = 0; d3 = 1; th4 = 0;
 d1 = 5; a1 = 3; a2 = 5; d4 = 1;
 
@@ -10,8 +11,8 @@ RRP_scara = robot ({L1 L2 L3 L4});
 position = transl(7.5, 2, 3.5);
 IC = [pi/10 0 0 pi/10];
 M = [1 1 1 1 0 0];
-data = ikine(RRP_scara, position, IC, M)
 
+data = ikine(RRP_scara, position, IC, M)
 
 th1_deg = rad2deg(data(1))
 th2_deg = rad2deg(data(2))
