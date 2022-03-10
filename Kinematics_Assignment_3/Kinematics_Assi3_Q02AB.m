@@ -15,6 +15,7 @@ M = [1 1 1 1 0 0];
 
 data = ikine (RRP_robot, position, IC, M)
 
+
 % b)
 T03 = fkine(RRP_robot, [data])
 P0 = [0;0;0;1]
