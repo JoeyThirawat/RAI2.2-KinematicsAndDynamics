@@ -1,3 +1,5 @@
+%% Assingment 3 - Q01
+%  b)
 th1 = 0; th2 = 0; d3 = 1;
 d1 = 2; a2 = 3;
 
